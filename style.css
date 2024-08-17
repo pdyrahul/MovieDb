@@ -28,7 +28,7 @@ body{background-color: var(--text-color);  font-weight: 400;}
   .search_container input{border-radius: 4px 0 0 4px;}
   .search_container button{border-radius: 0 4px 4px 0; background-color: var(--primary-color); cursor: pointer; transition: all 0.2s;}
   .search_container button:hover{background-color: var(--primary-color_dark);}
-  main{height: calc(100vh - 191px); max-width: 1200px; margin: 0 auto; margin-block: 40px; display: flex; align-items: center;}
+  main{height: calc(100vh - 191px); max-width: 1200px; margin: 0 auto; margin-block: 40px; display: flex; align-items: center; justify-content: center;}
   .movie_container{display:flex; justify-content: center;  border-radius:4px;}
   .movie-des{width:40%; line-height: 2.2; padding: 0 10px;}
   .movie-des h2{text-align: center; font-size: 32px;}
