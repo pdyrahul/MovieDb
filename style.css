@@ -1,0 +1,28 @@
+*{margin: 0px; padding: 0; box-sizing: border-box;  font-family: "Quicksand", sans-serif;}
+input:focus-visible{outline: none;} 
+body{background-color: var(--text-color);  font-weight: 400;}
+:root {
+    --primary-color: rgb(245 197 24); /* yellow color */
+    --primary-color_dark: rgb(199, 156, 3); /* yellow_dark color */
+    --secondary-color: #2ecc71; /* Green color */
+    --body-color:rgb(0, 0, 0); /* Grey Color */
+    --text-color:#fff; /* White Color */
+    --header-bg-color: rgb(50, 81, 108) /* slate Color */
+  }
+  nav{background-color: var(--header-bg-color) ; }
+  .navbar{ max-width: 1200px; margin :0 auto; display: flex; justify-content: space-between; color: var(--primary-color); align-items: center; padding: 20px 10px ;}
+  .search_container input,button{padding: 5px 10px; border: none; font-size: 16px;}
+  .search_container input{border-radius: 4px 0 0 4px;}
+  .search_container button{border-radius: 0 4px 4px 0; background-color: var(--primary-color); cursor: pointer; transition: all 0.2s;}
+  .search_container button:hover{background-color: var(--primary-color_dark);}
+  main{height: calc(100vh - 191px); max-width: 1200px; margin: 0 auto; margin-block: 40px;}
+  .movie_container{display:flex; justify-content: center;  border-radius:4px;}
+  .movie-des{width:40%; line-height: 2.2; padding: 0 10px;}
+  .movie-des h2{text-align: center; font-size: 32px;}
+  .movie-des h2+p{text-align: center;}
+  .movie-des h2+p+p{text-align: center;}
+  .movie-des p span.genre {background-color: var(--header-bg-color); color: var(--text-color); padding: 2px 8px; border-radius: 4px;}
+  .movie-poster{width: 60%;}
+  .movie-poster img{aspect-ratio: 4/4 !important;}
+  footer {text-align: center; & span{color: var(--primary-color);}  background-color: var(--header-bg-color); padding: 10px 0; color: var(--text-color); }
+  
