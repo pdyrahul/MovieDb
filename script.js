@@ -19,6 +19,7 @@ const getMovieInfo = async (movie) => {
     console.error('Error fetching movie data:', error);
     showNoMovieFound(); // Handle errors by showing "No movie found"
   }
+  
 };
 
 const showNoMovieFound = () => {
