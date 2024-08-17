@@ -22,6 +22,7 @@ body{background-color: var(--text-color);  font-weight: 400;}
   }
   .movie-des{ width: auto !important;}
   main{overflow-y: scroll;}
+ .movie_container{text-align:center;}
   }
   .search_container input,button{padding: 5px 10px; border: none; font-size: 16px;}
   .search_container input{border-radius: 4px 0 0 4px;}
