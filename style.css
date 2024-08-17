@@ -11,6 +11,18 @@ body{background-color: var(--text-color);  font-weight: 400;}
   }
   nav{background-color: var(--header-bg-color) ; }
   .navbar{ max-width: 1200px; margin :0 auto; display: flex; justify-content: space-between; color: var(--primary-color); align-items: center; padding: 20px 10px ;}
+  @media only screen and (max-width: 600px) {
+    .navbar, .movie_container {
+     flex-direction: column;
+     gap:20px;
+    }
+    .movie-poster {
+      width: auto !important;
+      text-align: center;
+  }
+  .movie-des{ width: auto !important;}
+  main{overflow-y: scroll;}
+  }
   .search_container input,button{padding: 5px 10px; border: none; font-size: 16px;}
   .search_container input{border-radius: 4px 0 0 4px;}
   .search_container button{border-radius: 0 4px 4px 0; background-color: var(--primary-color); cursor: pointer; transition: all 0.2s;}
